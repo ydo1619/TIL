@@ -12,4 +12,5 @@
 - vscode
 - markdown
 - Git
-- 
+- Github
+- python
