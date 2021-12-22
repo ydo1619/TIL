@@ -1,6 +1,6 @@
 # Git 특강 2일차
 
-#### 원격 저장소 연결
+#### 1. 원격 저장소 연결
 
 ```bash
 $ git remote add origin https://github.com/ydo1619/TIL.git
@@ -8,7 +8,7 @@ $ git remote add origin https://github.com/ydo1619/TIL.git
 
 
 
-#### 원격 저장소 연결 여부 확인
+#### 2. 원격 저장소 연결 여부 확인
 
 ```bash
 $ git remote -v
@@ -19,7 +19,7 @@ origin  https://github.com/ydo1619/TIL.git (push)
 
 
 
-#### Github에 파일 업로드
+#### 3. Github에 파일 업로드
 
 ```bash
 # 현재 상태 확인
@@ -32,13 +32,15 @@ $ git commit -m "Upload day2"
 # 커밋 확인
 $ git log --online
 
-# 이후에는 $ git push 라고만 작성해도 push 가능
+$ git push origin master
+
 $ git push -u origin master
+# 이후에는 $ git push 라고만 작성해도 push 가능 / 둘 중 하나 사용가능
 ```
 
 
 
-#### 수정 후 업로드
+#### 4. 수정 후 업로드
 
 ```bash
 $ git add .
@@ -54,7 +56,7 @@ $ git push 						# Github에 저장
 
 
 
-#### 원격 저장소 클론
+#### 5. 원격 저장소 클론(clone)
 
 ```bash
 # 로컬(강의실)에서
@@ -81,11 +83,10 @@ $ git push origin master
 
 
 
-#### pull
+#### 6. 원격 저장소 변경 사항 받아오기(pull)
 
 ```bash
 # 로컬(집)에서
-
 $ git pull
 
 # github, git-remote에서 집(로컬), git-home에 내려받음
@@ -97,6 +98,7 @@ $ git pull
 
 ```bash
 # 로컬(집)에서 수정 후
+$ git init
 
 $ git add.
 
@@ -117,5 +119,5 @@ $ git push origin master
     ```
 
   - commit은 github commit, 로컬 commit, merge commit이 저장된다.
-  - 무조건 pull 먼저 할 것!!
+  - 무조건 pull 먼저할 것!!
 
