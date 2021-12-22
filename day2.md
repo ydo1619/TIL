@@ -50,3 +50,4 @@ $ git commit -m "Update day2"   # 로컬에 저장
 $ git push 						# Github에 저장
 ```
 
+- 무조건 로컬에 먼저 commit하고 Gihub에 push 할 것.
