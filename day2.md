@@ -32,8 +32,8 @@ $ git commit -m "Upload day2"
 # 커밋 확인
 $ git log --online
 
-$ git push -u origin master
 # 이후에는 $ git push 라고만 작성해도 push 가능
+$ git push -u origin master
 ```
 
 
