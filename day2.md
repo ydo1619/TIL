@@ -30,7 +30,7 @@ $ git add .
 $ git commit -m "Upload day2"
 
 # 커밋 확인
-$ git log --online
+$ git log --oneline
 
 $ git push origin master
 
